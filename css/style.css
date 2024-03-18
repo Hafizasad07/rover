@@ -218,6 +218,9 @@ body{
 .logo-list{
     grid-column-gap: 2rem;
     display: flex;
+    animation: extendedScroll 20s linear infinite;
+    /* display: flex; */
+    justify-content: space-between;
 }
 @media screen and (max-width: 767px) {
     .slider .slide {

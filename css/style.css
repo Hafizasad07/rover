@@ -21,7 +21,7 @@ body{
 }
 /* extended section style */
 .extended-section {
-    padding-top: 30px;
+    padding-top: 50px;
 }
 .extended-section .content {
     padding-top: 32px;
@@ -140,8 +140,8 @@ body{
 .twoperson-img img{
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 0px;
-    width: 614px !important;
-    height: 500px;
+    width: 100% !important;
+    height: 688px;
 }
 
 .measure-img img{
@@ -293,5 +293,17 @@ body{
 
     .webflow-heading {
         font-size: 16px;
+    }
+
+    .extended-section{
+        padding-top: 10px;
+    }
+
+    .twoperson-img{
+        padding-bottom: 20px;
+    }
+
+    .text-9f9f9f{
+        padding-top: 10px;
     }
 }

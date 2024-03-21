@@ -146,8 +146,8 @@ body{
 
 .measure-img img{
     border-bottom-left-radius: 40px;
-    width: 600px !important;
-    height: 500px;
+    width: 100% !important;
+    height: 540px;
 }
 
 .rover-section .heading{
@@ -160,7 +160,7 @@ body{
 .rover-section2 .heading{
     color: #fff;
     font-family: Mont, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 1.1;
 }
@@ -213,7 +213,7 @@ body{
 }
 
 .video iframe{
-    width: 1000px;
+    width: 775px;
     height: 400px;
 }
 @media screen and (max-width: 767px) {
@@ -252,6 +252,11 @@ body{
 
     .text-222428{
         font-size: 1.5rem;
+        padding-top: 30px;
+    }
+
+    .text-9f9f9f{
+        font-size: 17px;
     }
 
     .fd-cr{
